@@ -1,0 +1,52 @@
+# Compiled Object files
+*.o
+*.obj
+*.lo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+claude_chatbot
+claude_chatbot.exe
+
+# Build directories
+build/
+bin/
+lib/
+obj/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (user conversations)
+*.dat
+chatbot_data/
+
+# API Keys (IMPORTANT!)
+*.key
+api_key.txt
+config.ini
+
+# Platform specific
+Thumbs.db
